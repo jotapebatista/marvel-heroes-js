@@ -1,0 +1,25 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vite
+dist/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+.DS_Store
+*.log
+*.bak
+*.tmp
+
+# Build and Compiled Files
+build/
+out/
+dist/
+*.log

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Bangers', cursive;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  text-align: center;
+  width: 300px;
+}
+
+.character-card h2 {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.character-card img {
+  max-width: 100%;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 12px;
+}
+
+.character-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+#search-input {
+  text-align: center;
+  color: #242424;
+  border-radius: 25px 0 25px 0px;
+  font-family: 'Bangers', cursive;
+  padding: 10px;
+  font-size: 1.5em;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-input::placeholder {
+  color: #242424;
+  opacity: 0.7;
+}
+
+#search-input:focus {
+  color:#242424;
+  outline: none;
+  border-color: #1d71b8;
+  box-shadow: 0 0 8px rgba(29, 113, 184, 0.4);
+}
